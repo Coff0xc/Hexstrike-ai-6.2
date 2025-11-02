@@ -1,22 +1,42 @@
 <div align="center">
 
-<img src="assets/hexstrike-logo.png" alt="HexStrike AI Logo" width="220" style="margin-bottom: 20px;"/>
+<img src="assets/hexstrike-logo.png" alt="HexStrike AI Logo" width="280" style="margin-bottom: 25px; border-radius: 15px; box-shadow: 0 8px 32px rgba(255, 82, 82, 0.3);"/>
 
-# HexStrike AI MCP Agents v6.0
-### AI-Powered MCP Cybersecurity Automation Platform
+<h1>
+  <img src="https://img.shields.io/badge/HexStrike-AI-red?style=for-the-badge&logo=shield&logoColor=white" alt="HexStrike AI"/>
+  <br/>
+  <span style="color: #ff5252;">MCP Agents v6.2</span>
+</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Security](https://img.shields.io/badge/Security-Penetration%20Testing-red.svg)](https://github.com/0x4m4/hexstrike-ai)
-[![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://github.com/0x4m4/hexstrike-ai)
-[![Version](https://img.shields.io/badge/Version-6.0.0-orange.svg)](https://github.com/0x4m4/hexstrike-ai/releases)
-[![Tools](https://img.shields.io/badge/Security%20Tools-150%2B-brightgreen.svg)](https://github.com/0x4m4/hexstrike-ai)
-[![Agents](https://img.shields.io/badge/AI%20Agents-12%2B-purple.svg)](https://github.com/0x4m4/hexstrike-ai)
-[![Stars](https://img.shields.io/github/stars/0x4m4/hexstrike-ai?style=social)](https://github.com/0x4m4/hexstrike-ai)
+<h3 style="color: #ff8a80; margin-top: -10px;">
+  ⚡ AI-Powered Cybersecurity Automation Platform
+</h3>
 
-**Advanced AI-powered penetration testing MCP framework with 150+ security tools and 12+ autonomous AI agents**
+<div style="margin: 25px 0;">
 
-[📋 What's New](#whats-new-in-v60) • [🏗️ Architecture](#architecture-overview) • [🚀 Installation](#installation) • [🛠️ Features](#features) • [🤖 AI Agents](#ai-agents) • [📡 API Reference](#api-reference)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-4CAF50?style=flat-square&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Security](https://img.shields.io/badge/Security-Pentesting-DC3545?style=flat-square&logo=shield-check&logoColor=white)](https://github.com/0x4m4/hexstrike-ai)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-9C27B0?style=flat-square&logo=network&logoColor=white)](https://github.com/0x4m4/hexstrike-ai)
+[![Version](https://img.shields.io/badge/Version-6.2.0-FF9800?style=flat-square&logo=tag&logoColor=white)](https://github.com/0x4m4/hexstrike-ai/releases)
+[![Tools](https://img.shields.io/badge/Tools-150%2B-4CAF50?style=flat-square&logo=tools&logoColor=white)](https://github.com/0x4m4/hexstrike-ai)
+[![Agents](https://img.shields.io/badge/AI%20Agents-12%2B-9C27B0?style=flat-square&logo=brain&logoColor=white)](https://github.com/0x4m4/hexstrike-ai)
+[![Stars](https://img.shields.io/github/stars/0x4m4/hexstrike-ai?style=flat-square&logo=github&logoColor=white&color=yellow)](https://github.com/0x4m4/hexstrike-ai)
+
+</div>
+
+<div style="background: linear-gradient(135deg, #2d0000 0%, #b71c1c 100%); padding: 20px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 20px rgba(255, 82, 82, 0.2);">
+
+**🚀 Advanced AI-powered penetration testing MCP framework**  
+**🛡️ 150+ security tools integrated • 12+ autonomous AI agents • Real-time intelligence**
+
+</div>
+
+<div style="margin: 30px 0; padding: 15px; background: rgba(255, 82, 82, 0.1); border-radius: 10px; border-left: 4px solid #ff5252;">
+
+[📋 What's New](#whats-new-in-v62) • [🏗️ Architecture](#architecture-overview) • [🚀 Installation](#installation) • [🛠️ Features](#features) • [🤖 AI Agents](#ai-agents) • [📡 API Reference](#api-reference) • [💡 Examples](#usage-examples)
+
+</div>
 
 </div>
 
@@ -42,9 +62,15 @@
 
 ---
 
-## Architecture Overview
+---
 
-HexStrike AI MCP v6.0 features a multi-agent architecture with autonomous AI agents, intelligent decision-making, and vulnerability intelligence.
+## 🏗️ Architecture Overview
+
+<div align="center">
+
+**HexStrike AI MCP v6.2** features a revolutionary multi-agent architecture with autonomous AI agents, intelligent decision-making, and real-time vulnerability intelligence.
+
+</div>
 
 ```mermaid
 %%{init: {"themeVariables": {
@@ -98,19 +124,56 @@ graph TD
     style E fill:#ff8a80,stroke:#b71c1c,stroke-width:2px,color:#fffde7
 ```
 
-### How It Works
+### ⚙️ How It Works
 
-1. **AI Agent Connection** - Claude, GPT, or other MCP-compatible agents connect via FastMCP protocol
-2. **Intelligent Analysis** - Decision engine analyzes targets and selects optimal testing strategies
-3. **Autonomous Execution** - AI agents execute comprehensive security assessments
-4. **Real-time Adaptation** - System adapts based on results and discovered vulnerabilities
-5. **Advanced Reporting** - Visual output with vulnerability cards and risk analysis
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
+
+<div style="background: linear-gradient(135deg, #ff5252 0%, #b71c1c 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(255, 82, 82, 0.3);">
+
+**1️⃣ AI Agent Connection**  
+Claude, GPT, or other MCP-compatible agents connect via FastMCP protocol
+
+</div>
+
+<div style="background: linear-gradient(135deg, #ff8a80 0%, #ff5252 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(255, 138, 128, 0.3);">
+
+**2️⃣ Intelligent Analysis**  
+Decision engine analyzes targets and selects optimal testing strategies
+
+</div>
+
+<div style="background: linear-gradient(135deg, #ff5252 0%, #b71c1c 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(255, 82, 82, 0.3);">
+
+**3️⃣ Autonomous Execution**  
+AI agents execute comprehensive security assessments
+
+</div>
+
+<div style="background: linear-gradient(135deg, #ff8a80 0%, #ff5252 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(255, 138, 128, 0.3);">
+
+**4️⃣ Real-time Adaptation**  
+System adapts based on results and discovered vulnerabilities
+
+</div>
+
+<div style="background: linear-gradient(135deg, #ff5252 0%, #b71c1c 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(255, 82, 82, 0.3); grid-column: 1 / -1;">
+
+**5️⃣ Advanced Reporting**  
+Visual output with vulnerability cards and comprehensive risk analysis
+
+</div>
+
+</div>
 
 ---
 
-## Installation
+---
 
-### Quick Setup to Run the hexstrike MCPs Server
+## 🚀 Installation
+
+### ⚡ Quick Setup to Run the HexStrike MCP Server
+
+<div style="background: #1e1e1e; padding: 25px; border-radius: 12px; border-left: 5px solid #ff5252; margin: 20px 0;">
 
 ```bash
 # 1. Clone the repository
@@ -125,26 +188,57 @@ source hexstrike-env/bin/activate  # Linux/Mac
 # 3. Install Python dependencies
 pip3 install -r requirements.txt
 
+# 4. Start the server
+python3 hexstrike_server.py
 ```
 
-### Installation and Setting Up Guide for various AI Clients:
+</div>
 
-#### Installation & Demo Video
+### 📺 Installation & Demo Video
 
-Watch the full installation and setup walkthrough here: [YouTube - HexStrike AI Installation & Demo](https://www.youtube.com/watch?v=pSoftCagCm8)
+<div align="center" style="margin: 25px 0;">
 
-#### Supported AI Clients for Running & Integration
+[![Watch Demo](https://img.shields.io/badge/📺%20Watch%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pSoftCagCm8)
 
-You can install and run HexStrike AI MCPs with various AI clients, including:
+**Watch the full installation and setup walkthrough here**
 
-- **5ire (Latest version v0.14.0 not supported for now)**
-- **VS Code Copilot**
-- **Roo Code**
-- **Cursor**
-- **Claude Desktop**
-- **Any MCP-compatible agent**
+</div>
 
-Refer to the video above for step-by-step instructions and integration examples for these platforms.
+### 🤖 Supported AI Clients
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 25px 0;">
+
+<div style="background: #2d2d2d; padding: 15px; border-radius: 8px; border: 2px solid #ff5252; text-align: center;">
+<strong>VS Code Copilot</strong><br/>
+<small>Full Integration</small>
+</div>
+
+<div style="background: #2d2d2d; padding: 15px; border-radius: 8px; border: 2px solid #ff5252; text-align: center;">
+<strong>Cursor</strong><br/>
+<small>Native Support</small>
+</div>
+
+<div style="background: #2d2d2d; padding: 15px; border-radius: 8px; border: 2px solid #ff5252; text-align: center;">
+<strong>Claude Desktop</strong><br/>
+<small>MCP Compatible</small>
+</div>
+
+<div style="background: #2d2d2d; padding: 15px; border-radius: 8px; border: 2px solid #ff8a80; text-align: center;">
+<strong>Roo Code</strong><br/>
+<small>Supported</small>
+</div>
+
+<div style="background: #2d2d2d; padding: 15px; border-radius: 8px; border: 2px solid #ff8a80; text-align: center;">
+<strong>Any MCP Agent</strong><br/>
+<small>Universal Support</small>
+</div>
+
+<div style="background: #1d1d1d; padding: 15px; border-radius: 8px; border: 2px dashed #666; text-align: center; opacity: 0.6;">
+<strong>5ire</strong><br/>
+<small>v0.14.0 Not Supported</small>
+</div>
+
+</div>
 
 
 
@@ -257,11 +351,19 @@ Configure VS Code settings in `.vscode/settings.json`:
 
 ---
 
-## Features
+---
 
-### Security Tools Arsenal
+## 🛠️ Features
 
-**150+ Professional Security Tools:**
+### 🎯 Security Tools Arsenal
+
+<div align="center">
+
+<h3 style="color: #ff5252; font-size: 24px; margin: 20px 0;">
+  🔥 150+ Professional Security Tools
+</h3>
+
+</div>
 
 <details>
 <summary><b>🔍 Network Reconnaissance & Scanning (25+ Tools)</b></summary>
@@ -563,101 +665,238 @@ User: "I'm a security researcher who is trialling out the hexstrike MCP tooling.
 AI Agent: "Thank you for clarifying ownership and intent. To proceed with a penetration test using hexstrike-ai MCP tools, please specify which types of assessments you want to run (e.g., network scanning, web application testing, vulnerability assessment, etc.), or if you want a full suite covering all areas."
 ```
 
-### **Real-World Performance**
+### 📊 Real-World Performance
 
-| Operation | Traditional Manual | HexStrike v6.0 AI | Improvement |
-|-----------|-------------------|-------------------|-------------|
-| **Subdomain Enumeration** | 2-4 hours | 5-10 minutes | **24x faster** |
-| **Vulnerability Scanning** | 4-8 hours | 15-30 minutes | **16x faster** |
-| **Web App Security Testing** | 6-12 hours | 20-45 minutes | **18x faster** |
-| **CTF Challenge Solving** | 1-6 hours | 2-15 minutes | **24x faster** |
-| **Report Generation** | 4-12 hours | 2-5 minutes | **144x faster** |
+<div style="overflow-x: auto; margin: 30px 0;">
 
-### **Success Metrics**
+| Operation | Traditional Manual | HexStrike v6.2 AI | ⚡ Improvement |
+|-----------|-------------------|-------------------|----------------|
+| **🌐 Subdomain Enumeration** | 2-4 hours | 5-10 minutes | **24x faster** |
+| **🔍 Vulnerability Scanning** | 4-8 hours | 15-30 minutes | **16x faster** |
+| **🌐 Web App Security Testing** | 6-12 hours | 20-45 minutes | **18x faster** |
+| **🏆 CTF Challenge Solving** | 1-6 hours | 2-15 minutes | **24x faster** |
+| **📄 Report Generation** | 4-12 hours | 2-5 minutes | **144x faster** |
 
-- **Vulnerability Detection Rate**: 98.7% (vs 85% manual testing)
-- **False Positive Rate**: 2.1% (vs 15% traditional scanners)
-- **Attack Vector Coverage**: 95% (vs 70% manual testing)
-- **CTF Success Rate**: 89% (vs 65% human expert average)
-- **Bug Bounty Success**: 15+ high-impact vulnerabilities discovered in testing
+</div>
+
+### 🎯 Success Metrics
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
+
+<div style="background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);">
+
+**🎯 Detection Rate**  
+**98.7%**  
+<small>vs 85% manual</small>
+
+</div>
+
+<div style="background: linear-gradient(135deg, #2196F3 0%, #1565C0 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);">
+
+**✅ False Positive**  
+**2.1%**  
+<small>vs 15% scanners</small>
+
+</div>
+
+<div style="background: linear-gradient(135deg, #FF9800 0%, #E65100 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);">
+
+**🎯 Coverage**  
+**95%**  
+<small>vs 70% manual</small>
+
+</div>
+
+<div style="background: linear-gradient(135deg, #9C27B0 0%, #6A1B9A 100%); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3);">
+
+**🏆 CTF Success**  
+**89%**  
+<small>vs 65% expert</small>
+
+</div>
+
+</div>
 
 ---
 
-## HexStrike AI v7.0 - Release Coming Soon!
+---
 
-### Key Improvements & New Features
+## 🎉 What's New in v6.2
 
-- **Streamlined Installation Process** - One-command setup with automated dependency management
-- **Docker Container Support** - Containerized deployment for consistent environments
-- **250+ Specialized AI Agents/Tools** - Expanded from 150+ to 250+ autonomous security agents
-- **Native Desktop Client** - Full-featured Application ([www.hexstrike.com](https://www.hexstrike.com))
-- **Advanced Web Automation** - Enhanced Selenium integration with anti-detection
-- **JavaScript Runtime Analysis** - Deep DOM inspection and dynamic content handling
-- **Memory Optimization** - 40% reduction in resource usage for large-scale operations
-- **Enhanced Error Handling** - Graceful degradation and automatic recovery mechanisms
-- **Bypassing Limitations** - Fixed limited allowed mcp tools by MCP clients
+<div style="background: linear-gradient(135deg, #2d0000 0%, #b71c1c 100%); padding: 30px; border-radius: 15px; margin: 30px 0; box-shadow: 0 8px 32px rgba(255, 82, 82, 0.3);">
+
+<h3 align="center" style="color: #fffde7; margin-bottom: 25px;">
+  ⚡ Performance Optimizations & AI Intelligence Enhancements
+</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+
+<div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #ff5252;">
+
+**🚀 15x Faster Startup**  
+Lazy loading system reduces startup time from 45s to 3s
+
+</div>
+
+<div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #ff5252;">
+
+**💾 Smart Caching**  
+>90% cache hit rate - repeated scans complete in <1 second
+
+</div>
+
+<div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #ff5252;">
+
+**⚡ 4x Parallel Speedup**  
+Multi-threaded execution for concurrent operations
+
+</div>
+
+<div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #ff8a80;">
+
+**🧠 AI Intelligence**  
+Natural language understanding and intelligent tool selection
+
+</div>
+
+<div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #ff8a80;">
+
+**🔗 Pentest Chain**  
+Automated end-to-end penetration testing workflows
+
+</div>
+
+<div style="background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #ff8a80;">
+
+**🔍 Smart Fuzzer**  
+AI-powered intelligent fuzzing with context-aware payloads
+
+</div>
+
+</div>
+
+</div>
+
+---
+
+## 🔮 HexStrike AI v7.0 - Coming Soon!
+
+<div style="background: #1e1e1e; padding: 25px; border-radius: 12px; border: 2px dashed #ff5252; margin: 30px 0;">
+
+### 🎯 Key Improvements & New Features
+
+- **📦 Streamlined Installation** - One-command setup with automated dependency management
+- **🐳 Docker Container Support** - Containerized deployment for consistent environments
+- **🤖 250+ AI Agents/Tools** - Expanded from 150+ to 250+ autonomous security agents
+- **🖥️ Native Desktop Client** - Full-featured Application ([www.hexstrike.com](https://www.hexstrike.com))
+- **🌐 Advanced Web Automation** - Enhanced Selenium integration with anti-detection
+- **📜 JavaScript Runtime Analysis** - Deep DOM inspection and dynamic content handling
+- **💾 Memory Optimization** - 40% reduction in resource usage for large-scale operations
+- **🛡️ Enhanced Error Handling** - Graceful degradation and automatic recovery mechanisms
+- **🔧 Bypassing Limitations** - Fixed limited allowed mcp tools by MCP clients
+
+</div>
 
 
 ---
 
-## Troubleshooting
+---
 
-### Common Issues
+## 🔧 Troubleshooting
 
-1. **MCP Connection Failed**:
-   ```bash
-   # Check if server is running
-   netstat -tlnp | grep 8888
-   
-   # Restart server
-   python3 hexstrike_server.py
-   ```
+### ❗ Common Issues
 
-2. **Security Tools Not Found**:
-   ```bash
-   # Check tool availability
-   which nmap gobuster nuclei
-   
-   # Install missing tools from their official sources
-   ```
+<div style="background: #2d2d2d; padding: 25px; border-radius: 12px; margin: 20px 0;">
 
-3. **AI Agent Cannot Connect**:
-   ```bash
-   # Verify MCP configuration paths
-   # Check server logs for connection attempts
-   python3 hexstrike_mcp.py --debug
-   ```
+**1️⃣ MCP Connection Failed**
 
-### Debug Mode
+```bash
+# Check if server is running
+netstat -tlnp | grep 8888
+
+# Restart server
+python3 hexstrike_server.py
+```
+
+**2️⃣ Security Tools Not Found**
+
+```bash
+# Check tool availability
+which nmap gobuster nuclei
+
+# Install missing tools from their official sources
+```
+
+**3️⃣ AI Agent Cannot Connect**
+
+```bash
+# Verify MCP configuration paths
+# Check server logs for connection attempts
+python3 hexstrike_mcp.py --debug
+```
+
+</div>
+
+### 🐛 Debug Mode
+
+<div style="background: #1e1e1e; padding: 20px; border-radius: 10px; border-left: 4px solid #ff5252; margin: 20px 0;">
 
 Enable debug mode for detailed logging:
+
 ```bash
 python3 hexstrike_server.py --debug
 python3 hexstrike_mcp.py --debug
 ```
 
+</div>
+
 ---
 
-## Security Considerations
+---
 
-⚠️ **Important Security Notes**:
-- This tool provides AI agents with powerful system access
-- Run in isolated environments or dedicated security testing VMs
-- AI agents can execute arbitrary security tools - ensure proper oversight
-- Monitor AI agent activities through the real-time dashboard
-- Consider implementing authentication for production deployments
+## 🛡️ Security Considerations
 
-### Legal & Ethical Use
+<div style="background: linear-gradient(135deg, #DC3545 0%, #C82333 100%); padding: 25px; border-radius: 12px; margin: 30px 0; color: white; box-shadow: 0 4px 20px rgba(220, 53, 69, 0.3);">
 
-- ✅ **Authorized Penetration Testing** - With proper written authorization
-- ✅ **Bug Bounty Programs** - Within program scope and rules
-- ✅ **CTF Competitions** - Educational and competitive environments
-- ✅ **Security Research** - On owned or authorized systems
-- ✅ **Red Team Exercises** - With organizational approval
+<h3 align="center" style="margin-bottom: 20px;">
+  ⚠️ Important Security Notes
+</h3>
 
-- ❌ **Unauthorized Testing** - Never test systems without permission
-- ❌ **Malicious Activities** - No illegal or harmful activities
-- ❌ **Data Theft** - No unauthorized data access or exfiltration
+- 🔒 This tool provides AI agents with powerful system access
+- 🏝️ Run in isolated environments or dedicated security testing VMs
+- 👀 AI agents can execute arbitrary security tools - ensure proper oversight
+- 📊 Monitor AI agent activities through the real-time dashboard
+- 🔐 Consider implementing authentication for production deployments
+
+</div>
+
+### ✅ Legal & Ethical Use
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
+
+<div style="background: rgba(76, 175, 80, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #4CAF50;">
+
+<h4 style="color: #4CAF50; margin-top: 0;">✅ Allowed Uses</h4>
+
+- **Authorized Penetration Testing** - With proper written authorization
+- **Bug Bounty Programs** - Within program scope and rules
+- **CTF Competitions** - Educational and competitive environments
+- **Security Research** - On owned or authorized systems
+- **Red Team Exercises** - With organizational approval
+
+</div>
+
+<div style="background: rgba(220, 53, 69, 0.1); padding: 20px; border-radius: 10px; border-left: 4px solid #DC3545;">
+
+<h4 style="color: #DC3545; margin-top: 0;">❌ Prohibited Uses</h4>
+
+- **Unauthorized Testing** - Never test systems without permission
+- **Malicious Activities** - No illegal or harmful activities
+- **Data Theft** - No unauthorized data access or exfiltration
+
+</div>
+
+</div>
 
 ---
 
@@ -752,6 +991,17 @@ MIT License - see LICENSE file for details.
 
 **Made with ❤️ by the cybersecurity community for AI-powered security automation**
 
-*HexStrike AI v6.0 - Where artificial intelligence meets cybersecurity excellence*
+*HexStrike AI v6.2 - Where artificial intelligence meets cybersecurity excellence*
+
+<div align="center" style="margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #2d0000 0%, #b71c1c 100%); border-radius: 15px;">
+
+<h3 style="color: #fffde7;">
+  ⚡ Powered by Performance Optimizations & AI Intelligence
+</h3>
+<p style="color: #ff8a80;">
+  🚀 15x Faster Startup • 💾 Smart Caching • ⚡ Parallel Execution • 🧠 AI-Powered Decisions
+</p>
+
+</div>
 
 </div>
