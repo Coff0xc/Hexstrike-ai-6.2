@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "hexstrike-ai-v6.2": {
+      "command": "python3",
+      "args": [
+        "/home/kali/Desktop/hexstrike-ai-master/hexstrike-ai-master/hexstrike_mcp.py",
+        "--server",
+        "http://localhost:8888"
+      ],
+      "description": "HexStrike AI v6.2 - Advanced Cybersecurity Automation with Async Task Queue & AI Intelligence",
+      "env": {
+        "HEXSTRIKE_VERSION": "6.2.0",
+        "CELERY_BROKER_URL": "redis://localhost:6379/1",
+        "CELERY_RESULT_BACKEND": "redis://localhost:6379/2",
+        "REDIS_ENABLED": "true",
+        "COMPRESSION_ENABLED": "true",
+        "RATE_LIMIT_RPS": "100.0"
+      },
+      "timeout": 300,
+      "disabled": false
+    }
+  }
+}

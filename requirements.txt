@@ -1,4 +1,4 @@
-# HexStrike AI MCP Agents v6.0
+# HexStrike AI MCP Agents v6.2
 #
 # INSTALLATION COMMANDS:
 # python3 -m venv hexstrike_env
@@ -25,6 +25,26 @@ webdriver-manager>=4.0.0,<5.0.0 # ChromeDriver management (referenced in code)
 # ASYNC & NETWORKING (ACTUALLY USED)
 # ============================================================================
 aiohttp>=3.8.0,<4.0.0           # Async HTTP (aiohttp import)
+
+# ============================================================================
+# PERFORMANCE OPTIMIZATION (v6.1 ENHANCEMENT)
+# ============================================================================
+redis>=5.0.0,<6.0.0             # Redis cache support (optional but recommended)
+brotli>=1.0.9,<2.0.0            # Brotli compression (faster than gzip)
+uvicorn>=0.24.0,<1.0.0          # ASGI server for async support
+gunicorn>=21.2.0,<22.0.0        # Production WSGI server with workers
+gevent>=23.9.0,<24.0.0          # Async I/O for Flask
+python-dotenv>=1.0.0,<2.0.0     # Environment configuration
+pympler>=1.0.1,<2.0.0           # Memory profiling
+
+# ============================================================================
+# ASYNC TASK QUEUE (v6.2 ENHANCEMENT)
+# ============================================================================
+celery>=5.3.0,<6.0.0            # Distributed task queue
+kombu>=5.3.0,<6.0.0             # Messaging library for Celery
+vine>=5.0.0,<6.0.0              # Promise library for Celery
+billiard>=4.1.0,<5.0.0          # Multiprocessing pool for Celery
+flower>=2.0.0,<3.0.0            # Celery monitoring web UI (optional)
 
 # ============================================================================
 # PROXY & TESTING (ACTUALLY USED)

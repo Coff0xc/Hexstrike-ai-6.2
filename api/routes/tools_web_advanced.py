@@ -182,7 +182,8 @@ def httpx():
                 "error": "Target parameter is required"
             }), 400
 
-        command = f"httpx -u {target} -threads {threads}"
+        # ✅ 修复: httpx不接受-u参数，使用echo管道方式
+        command = f"echo '{target}' | httpx -threads {threads}"
 
         if status_code:
             command += " -sc"
